@@ -91,11 +91,10 @@ The results demonstrate that DKDNet improves cross-domain AMC performance under 
 
 The experiments in the paper are conducted on the constructed **RML2025 Series** datasets and the public **RML22** benchmark.
 
-The RML2025 Series datasets are maintained in a separate repository:
+- **RML2025 Series**: [FireTracer/RML2025-Series](https://github.com/FireTracer/RML2025-Series)
+- **RML22**: [venkateshsathya/RML22](https://github.com/venkateshsathya/RML22)
 
-[https://github.com/FireTracer/RML2025-Series](https://github.com/FireTracer/RML2025-Series)
-
-This repository focuses on the implementation of DKDNet. Please refer to the dataset repository for data download, generation scripts, and preparation instructions.
+This repository focuses on the implementation of DKDNet. Please refer to the corresponding dataset repositories for data download, generation scripts, and preparation instructions.
 
 ## Status
 
