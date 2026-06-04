@@ -78,7 +78,7 @@ Through joint optimization, DKDNet learns feature representations that are discr
   Target-domain accuracy under six AWGN-source adaptation settings.
 </p>
 
-The figure compares DKDNet with representative UDA-based AMC methods under six cross-domain adaptation settings, including AWGN$\rightarrow$Ri1, AWGN$\rightarrow$Ri2, AWGN$\rightarrow$Ri3, AWGN$\rightarrow$Ray1, AWGN$\rightarrow$Ray2, and AWGN$\rightarrow$Ray3.
+The figure compares DKDNet with representative UDA-based AMC methods under six cross-domain adaptation settings, including AWGN→Ri1, AWGN→Ri2, AWGN→Ri3, AWGN→Ray1, AWGN→Ray2, and AWGN→Ray3.
 
 Across all target domains, DKDNet consistently achieves the best performance, especially in the medium- and high-SNR ranges. When the SNR is above approximately -4 dB, DKDNet shows a clear advantage over DAAMR, DMRUE, SigDA, ADDA, and the Source Only baseline. This indicates that the proposed signal-prior-guided representation learning can provide more transferable features than purely data-driven feature alignment.
 
