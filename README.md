@@ -15,7 +15,7 @@ DKDNet is a dual knowledge and data-driven framework for cross-domain AMC. It in
 ## Pipeline
 
 <p align="center">
-  <img src="assets/pipeline.png" width="850">
+  <img src="pipeline.png" width="850">
 </p>
 
 <p align="center">
@@ -64,6 +64,28 @@ DKDNet follows the unsupervised domain adaptation setting, where labeled source-
 - a domain-adversarial alignment loss.
 
 Through joint optimization, DKDNet learns feature representations that are discriminative for modulation classification and transferable across domains.
+
+
+## Experimental Results
+
+### Comparison with UDA baselines
+
+<p align="center">
+  <img src="zhexian.png" width="900">
+</p>
+
+<p align="center">
+  Target-domain accuracy under six AWGN-source adaptation settings.
+</p>
+
+The figure compares DKDNet with representative UDA-based AMC methods under six cross-domain adaptation settings, including AWGN$\rightarrow$Ri1, AWGN$\rightarrow$Ri2, AWGN$\rightarrow$Ri3, AWGN$\rightarrow$Ray1, AWGN$\rightarrow$Ray2, and AWGN$\rightarrow$Ray3.
+
+Across all target domains, DKDNet consistently achieves the best performance, especially in the medium- and high-SNR ranges. When the SNR is above approximately -4 dB, DKDNet shows a clear advantage over DAAMR, DMRUE, SigDA, ADDA, and the Source Only baseline. This indicates that the proposed signal-prior-guided representation learning can provide more transferable features than purely data-driven feature alignment.
+
+At very low SNRs, all methods obtain relatively low accuracy because severe noise corruption obscures modulation-discriminative structures. As the SNR increases, the performance gap between DKDNet and the compared methods becomes more evident. DKDNet reaches around 0.8 accuracy in several target domains, while the baselines generally saturate at a lower level.
+
+The results demonstrate that DKDNet improves cross-domain AMC performance under both Rician and Rayleigh fading scenarios. The consistent gains across different target domains also suggest that the selected IQ, AP, and ACF priors provide complementary and relatively stable information for domain-adaptive modulation classification.
+
 
 ## Datasets
 
