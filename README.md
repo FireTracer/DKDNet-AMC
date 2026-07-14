@@ -3,7 +3,7 @@
 Official repository for the paper:
 
 **DKDNet: Dual Knowledge and Data-Driven Network for Cross-Domain Automatic Modulation Classification**
-
+[VC-SEI: Robust Variable-Channel Specific Emitter  Identification Method Using Semi-Supervised  Domain Adaptation]
 Code is being prepared and will be released soon.
 
 ## Overview
